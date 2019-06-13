@@ -111,6 +111,8 @@ public enum FontAwesome: String {
     case backward = "\u{f04a}"
     case bacon = "\u{f7e5}"
     case balanceScale = "\u{f24e}"
+    case balanceScaleLeft = "\u{f515}"
+    case balanceScaleRight = "\u{f516}"
     case ban = "\u{f05e}"
     case bandAid = "\u{f462}"
     case bandcamp = "\u{f2d5}"
@@ -134,6 +136,7 @@ public enum FontAwesome: String {
     case bezierCurve = "\u{f55b}"
     case bible = "\u{f647}"
     case bicycle = "\u{f206}"
+    case biking = "\u{f84a}"
     case bimobject = "\u{f378}"
     case binoculars = "\u{f1e5}"
     case biohazard = "\u{f780}"
@@ -163,6 +166,9 @@ public enum FontAwesome: String {
     case bookReader = "\u{f5da}"
     case bookmark = "\u{f02e}"
     case bootstrap = "\u{f836}"
+    case borderAll = "\u{f84c}"
+    case borderNone = "\u{f850}"
+    case borderStyle = "\u{f853}"
     case bowlingBall = "\u{f436}"
     case box = "\u{f466}"
     case boxOpen = "\u{f49e}"
@@ -454,6 +460,7 @@ public enum FontAwesome: String {
     case facebookF = "\u{f39e}"
     case facebookMessenger = "\u{f39f}"
     case facebookSquare = "\u{f082}"
+    case fan = "\u{f863}"
     case fantasyFlightGames = "\u{f6dc}"
     case fastBackward = "\u{f049}"
     case fastForward = "\u{f050}"
@@ -550,6 +557,7 @@ public enum FontAwesome: String {
     case gift = "\u{f06b}"
     case gifts = "\u{f79c}"
     case git = "\u{f1d3}"
+    case gitAlt = "\u{f841}"
     case gitSquare = "\u{f1d2}"
     case github = "\u{f09b}"
     case githubAlt = "\u{f113}"
@@ -679,6 +687,7 @@ public enum FontAwesome: String {
     case iCursor = "\u{f246}"
     case iceCream = "\u{f810}"
     case icicles = "\u{f7ad}"
+    case icons = "\u{f86d}"
     case idBadge = "\u{f2c1}"
     case idCard = "\u{f2c2}"
     case idCardAlt = "\u{f47f}"
@@ -850,7 +859,6 @@ public enum FontAwesome: String {
     case neuter = "\u{f22c}"
     case newspaper = "\u{f1ea}"
     case nimblr = "\u{f5a8}"
-    case nintendoSwitch = "\u{f418}"
     case node = "\u{f419}"
     case nodeJs = "\u{f3d3}"
     case notEqual = "\u{f53e}"
@@ -912,9 +920,12 @@ public enum FontAwesome: String {
     case phoenixFramework = "\u{f3dc}"
     case phoenixSquadron = "\u{f511}"
     case phone = "\u{f095}"
+    case phoneAlt = "\u{f879}"
     case phoneSlash = "\u{f3dd}"
     case phoneSquare = "\u{f098}"
+    case phoneSquareAlt = "\u{f87b}"
     case phoneVolume = "\u{f2a0}"
+    case photoVideo = "\u{f87c}"
     case php = "\u{f457}"
     case piedPiper = "\u{f2ae}"
     case piedPiperAlt = "\u{f1a8}"
@@ -989,6 +1000,7 @@ public enum FontAwesome: String {
     case redo = "\u{f01e}"
     case redoAlt = "\u{f2f9}"
     case registered = "\u{f25d}"
+    case removeFormat = "\u{f87d}"
     case renren = "\u{f18b}"
     case reply = "\u{f3e5}"
     case replyAll = "\u{f122}"
@@ -1101,12 +1113,18 @@ public enum FontAwesome: String {
     case solarPanel = "\u{f5ba}"
     case sort = "\u{f0dc}"
     case sortAlphaDown = "\u{f15d}"
+    case sortAlphaDownAlt = "\u{f881}"
     case sortAlphaUp = "\u{f15e}"
+    case sortAlphaUpAlt = "\u{f882}"
     case sortAmountDown = "\u{f160}"
+    case sortAmountDownAlt = "\u{f884}"
     case sortAmountUp = "\u{f161}"
+    case sortAmountUpAlt = "\u{f885}"
     case sortDown = "\u{f0dd}"
     case sortNumericDown = "\u{f162}"
+    case sortNumericDownAlt = "\u{f886}"
     case sortNumericUp = "\u{f163}"
+    case sortNumericUpAlt = "\u{f887}"
     case sortUp = "\u{f0de}"
     case soundcloud = "\u{f1be}"
     case sourcetree = "\u{f7d3}"
@@ -1114,6 +1132,7 @@ public enum FontAwesome: String {
     case spaceShuttle = "\u{f197}"
     case speakap = "\u{f3f3}"
     case speakerDeck = "\u{f83c}"
+    case spellCheck = "\u{f891}"
     case spider = "\u{f717}"
     case spinner = "\u{f110}"
     case splotch = "\u{f5bc}"
@@ -1125,6 +1144,7 @@ public enum FontAwesome: String {
     case squarespace = "\u{f5be}"
     case stackExchange = "\u{f18d}"
     case stackOverflow = "\u{f16c}"
+    case stackpath = "\u{f842}"
     case stamp = "\u{f5bf}"
     case star = "\u{f005}"
     case starAndCrescent = "\u{f699}"
@@ -1327,6 +1347,7 @@ public enum FontAwesome: String {
     case vine = "\u{f1ca}"
     case vk = "\u{f189}"
     case vnv = "\u{f40b}"
+    case voicemail = "\u{f897}"
     case volleyballBall = "\u{f45f}"
     case volumeDown = "\u{f027}"
     case volumeMute = "\u{f6a9}"
@@ -1479,6 +1500,8 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-backward": "\u{f04a}",
     "fa-bacon": "\u{f7e5}",
     "fa-balance-scale": "\u{f24e}",
+    "fa-balance-scale-left": "\u{f515}",
+    "fa-balance-scale-right": "\u{f516}",
     "fa-ban": "\u{f05e}",
     "fa-band-aid": "\u{f462}",
     "fa-bandcamp": "\u{f2d5}",
@@ -1502,6 +1525,7 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-bezier-curve": "\u{f55b}",
     "fa-bible": "\u{f647}",
     "fa-bicycle": "\u{f206}",
+    "fa-biking": "\u{f84a}",
     "fa-bimobject": "\u{f378}",
     "fa-binoculars": "\u{f1e5}",
     "fa-biohazard": "\u{f780}",
@@ -1531,6 +1555,9 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-book-reader": "\u{f5da}",
     "fa-bookmark": "\u{f02e}",
     "fa-bootstrap": "\u{f836}",
+    "fa-border-all": "\u{f84c}",
+    "fa-border-none": "\u{f850}",
+    "fa-border-style": "\u{f853}",
     "fa-bowling-ball": "\u{f436}",
     "fa-box": "\u{f466}",
     "fa-box-open": "\u{f49e}",
@@ -1822,6 +1849,7 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-facebook-f": "\u{f39e}",
     "fa-facebook-messenger": "\u{f39f}",
     "fa-facebook-square": "\u{f082}",
+    "fa-fan": "\u{f863}",
     "fa-fantasy-flight-games": "\u{f6dc}",
     "fa-fast-backward": "\u{f049}",
     "fa-fast-forward": "\u{f050}",
@@ -1918,6 +1946,7 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-gift": "\u{f06b}",
     "fa-gifts": "\u{f79c}",
     "fa-git": "\u{f1d3}",
+    "fa-git-alt": "\u{f841}",
     "fa-git-square": "\u{f1d2}",
     "fa-github": "\u{f09b}",
     "fa-github-alt": "\u{f113}",
@@ -2047,6 +2076,7 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-i-cursor": "\u{f246}",
     "fa-ice-cream": "\u{f810}",
     "fa-icicles": "\u{f7ad}",
+    "fa-icons": "\u{f86d}",
     "fa-id-badge": "\u{f2c1}",
     "fa-id-card": "\u{f2c2}",
     "fa-id-card-alt": "\u{f47f}",
@@ -2218,7 +2248,6 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-neuter": "\u{f22c}",
     "fa-newspaper": "\u{f1ea}",
     "fa-nimblr": "\u{f5a8}",
-    "fa-nintendo-switch": "\u{f418}",
     "fa-node": "\u{f419}",
     "fa-node-js": "\u{f3d3}",
     "fa-not-equal": "\u{f53e}",
@@ -2280,9 +2309,12 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-phoenix-framework": "\u{f3dc}",
     "fa-phoenix-squadron": "\u{f511}",
     "fa-phone": "\u{f095}",
+    "fa-phone-alt": "\u{f879}",
     "fa-phone-slash": "\u{f3dd}",
     "fa-phone-square": "\u{f098}",
+    "fa-phone-square-alt": "\u{f87b}",
     "fa-phone-volume": "\u{f2a0}",
+    "fa-photo-video": "\u{f87c}",
     "fa-php": "\u{f457}",
     "fa-pied-piper": "\u{f2ae}",
     "fa-pied-piper-alt": "\u{f1a8}",
@@ -2357,6 +2389,7 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-redo": "\u{f01e}",
     "fa-redo-alt": "\u{f2f9}",
     "fa-registered": "\u{f25d}",
+    "fa-remove-format": "\u{f87d}",
     "fa-renren": "\u{f18b}",
     "fa-reply": "\u{f3e5}",
     "fa-reply-all": "\u{f122}",
@@ -2469,12 +2502,18 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-solar-panel": "\u{f5ba}",
     "fa-sort": "\u{f0dc}",
     "fa-sort-alpha-down": "\u{f15d}",
+    "fa-sort-alpha-down-alt": "\u{f881}",
     "fa-sort-alpha-up": "\u{f15e}",
+    "fa-sort-alpha-up-alt": "\u{f882}",
     "fa-sort-amount-down": "\u{f160}",
+    "fa-sort-amount-down-alt": "\u{f884}",
     "fa-sort-amount-up": "\u{f161}",
+    "fa-sort-amount-up-alt": "\u{f885}",
     "fa-sort-down": "\u{f0dd}",
     "fa-sort-numeric-down": "\u{f162}",
+    "fa-sort-numeric-down-alt": "\u{f886}",
     "fa-sort-numeric-up": "\u{f163}",
+    "fa-sort-numeric-up-alt": "\u{f887}",
     "fa-sort-up": "\u{f0de}",
     "fa-soundcloud": "\u{f1be}",
     "fa-sourcetree": "\u{f7d3}",
@@ -2482,6 +2521,7 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-space-shuttle": "\u{f197}",
     "fa-speakap": "\u{f3f3}",
     "fa-speaker-deck": "\u{f83c}",
+    "fa-spell-check": "\u{f891}",
     "fa-spider": "\u{f717}",
     "fa-spinner": "\u{f110}",
     "fa-splotch": "\u{f5bc}",
@@ -2493,6 +2533,7 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-squarespace": "\u{f5be}",
     "fa-stack-exchange": "\u{f18d}",
     "fa-stack-overflow": "\u{f16c}",
+    "fa-stackpath": "\u{f842}",
     "fa-stamp": "\u{f5bf}",
     "fa-star": "\u{f005}",
     "fa-star-and-crescent": "\u{f699}",
@@ -2695,6 +2736,7 @@ public let FontAwesomeIcons: [String: String] = [
     "fa-vine": "\u{f1ca}",
     "fa-vk": "\u{f189}",
     "fa-vnv": "\u{f40b}",
+    "fa-voicemail": "\u{f897}",
     "fa-volleyball-ball": "\u{f45f}",
     "fa-volume-down": "\u{f027}",
     "fa-volume-mute": "\u{f6a9}",
@@ -2923,6 +2965,7 @@ public enum FontAwesomeBrands: String {
     case gg = "\u{f260}"
     case ggCircle = "\u{f261}"
     case git = "\u{f1d3}"
+    case gitAlt = "\u{f841}"
     case gitSquare = "\u{f1d2}"
     case github = "\u{f09b}"
     case githubAlt = "\u{f113}"
@@ -3015,7 +3058,6 @@ public enum FontAwesomeBrands: String {
     case napster = "\u{f3d2}"
     case neos = "\u{f612}"
     case nimblr = "\u{f5a8}"
-    case nintendoSwitch = "\u{f418}"
     case node = "\u{f419}"
     case nodeJs = "\u{f3d3}"
     case npm = "\u{f3d4}"
@@ -3104,6 +3146,7 @@ public enum FontAwesomeBrands: String {
     case squarespace = "\u{f5be}"
     case stackExchange = "\u{f18d}"
     case stackOverflow = "\u{f16c}"
+    case stackpath = "\u{f842}"
     case staylinked = "\u{f3f5}"
     case steam = "\u{f1b6}"
     case steamSquare = "\u{f1b7}"
@@ -3355,6 +3398,7 @@ public let FontAwesomeBrandIcons: [String: String] = [
 "fa-gg": "\u{f260}",
 "fa-gg-circle": "\u{f261}",
 "fa-git": "\u{f1d3}",
+"fa-git-alt": "\u{f841}",
 "fa-git-square": "\u{f1d2}",
 "fa-github": "\u{f09b}",
 "fa-github-alt": "\u{f113}",
@@ -3447,7 +3491,6 @@ public let FontAwesomeBrandIcons: [String: String] = [
 "fa-napster": "\u{f3d2}",
 "fa-neos": "\u{f612}",
 "fa-nimblr": "\u{f5a8}",
-"fa-nintendo-switch": "\u{f418}",
 "fa-node": "\u{f419}",
 "fa-node-js": "\u{f3d3}",
 "fa-npm": "\u{f3d4}",
@@ -3536,6 +3579,7 @@ public let FontAwesomeBrandIcons: [String: String] = [
 "fa-squarespace": "\u{f5be}",
 "fa-stack-exchange": "\u{f18d}",
 "fa-stack-overflow": "\u{f16c}",
+"fa-stackpath": "\u{f842}",
 "fa-staylinked": "\u{f3f5}",
 "fa-steam": "\u{f1b6}",
 "fa-steam-square": "\u{f1b7}",
