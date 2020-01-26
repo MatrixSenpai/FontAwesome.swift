@@ -17,7 +17,7 @@ struct SVG: Codable {
     let viewBox: [String]
     let width: UInt
     let height: UInt
-    let path: String
+//    let path: SVGPath?
 }
 
 extension String {
@@ -28,13 +28,12 @@ extension String {
     }
 
     public func filteredKeywords() -> String {
-        if self == "500px" {
-            return "fiveHundredPixels"
+        switch self {
+        case "500px": return "fiveHundredPixels"
+        case "subscript": return "`subscript`"
+        case "repeat": return "`repeat`"
+        default: return self
         }
-        if self == "subscript" {
-            return "`subscript`"
-        }
-        return self
     }
 }
 
