@@ -37,7 +37,7 @@ extension String {
     }
 }
 
-guard let json = FileManager.default.contents(atPath: "FortAwesome/Font-Awesome/metadata/icons.json") else {
+guard let json = FileManager.default.contents(atPath: "FortAwesome/FontAwesome-Pro/metadata/icons.json") else {
     fatalError("Could not find JSON metadata file")
 }
 
